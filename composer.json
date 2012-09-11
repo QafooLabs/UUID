@@ -22,5 +22,11 @@
             "name": "Manuel Pichler",
             "email": "manuel@qafoo.com"
         }
-    ]
+    ],
+
+    "autoload": {
+        "psr-0": {
+            "QafooLabs\\UUID": "src/main"
+        }
+    }
 }
